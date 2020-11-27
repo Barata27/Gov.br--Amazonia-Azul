@@ -1,0 +1,521 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color:#F9F9F9;
+}
+
+header{
+  width: 100%;
+  max-height: 800px;
+  height: 238px;
+}
+
+.clear{
+  clear: both;
+}
+
+.header-wrapper{
+  margin: 0 auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #F0F1F4;
+}
+
+nav.nav-bar{
+  max-height: 1200px;
+  height: 49px;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-bar ul li{
+  margin: 15px;
+}
+
+header nav li{
+  display: inline-block;
+  cursor: pointer;
+}
+
+nav.nav-bar a{
+  color: #2864AE;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.cabecalho{
+  height: 189px;
+  text-align: center;
+  background-color: white;
+}
+
+.logo{
+  padding: 20px;
+}
+
+.login{
+  float: right;
+  margin-top: -80px;
+  margin-right: 70px;
+}
+
+.libras{
+  float: right;
+  Width:100px;
+  Height:50px;
+  background-color: #E4E4E4;
+  border-radius: 5px;  
+  cursor: pointer;
+  margin: 35px 70px 0 0;
+}
+
+.libras img{
+  margin: 10px;
+  margin-left: -50px;
+}
+
+.libras a{
+  margin: 16px 0;
+  position: absolute;
+  font-size: 15px;
+  font-family: Product Sans;
+  text-decoration: none;
+}
+
+.pesquisa {
+  margin: 10px;
+  margin-top: -10px;
+}
+
+.pesquisa form{
+  margin-right:-55px;
+  display: inline-flex;
+  width: 650px;
+}
+
+.pesquisa input{
+  background-color: #EFEFEF;
+  text-align: center;
+  width: 600px;
+  height: 50px;
+  font-size: 25px;
+  color: #2864AE;
+  border: none;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  outline: 0;
+}
+
+.pesquisa input::placeholder{
+  color:#2864AE;
+}
+
+.pesquisa  .enviar{
+  background-image: url(../images/pesquisar.png); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  cursor: pointer;
+  width: 70px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px
+}
+section{
+  background-color:#F9F9F9;
+}
+
+section.noticias{
+  margin-left: 15px;
+}
+
+.title1{
+  margin-top: 20px;
+  display: flex;
+}
+
+.title1 h1{
+  margin: 5px;
+  font-size: 25px;
+  color: #4B6272;
+}
+
+.title1 h1:nth-of-type(1){
+  font-weight: 300;
+  margin-left: 20px;
+}
+
+div.scroll-noticia{
+  height: 400px;
+  width: 700px;
+  overflow: hidden;
+}
+
+div.scroll-wraper{
+  height: 400px;
+  width: 700px;
+}
+
+.box-noticias{
+  width: 100%;
+  height: 100%;
+}
+
+div.box-noticias1{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/noticia1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+div.box-noticias2{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/noticia2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+div.box-noticias3{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/noticia3.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+}
+
+.box-noticias1 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.box-noticias2 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.box-noticias3 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.title-noticia {
+  margin-bottom: -300px;
+  margin-left: -15px; 
+}
+
+div.voltar-noticia{
+  cursor: pointer;
+  width: 90px;
+  height: 60px;
+  background-image: url(../images/Botãoesquerdo.png);
+  background-repeat: no-repeat;
+}
+
+div.adiantar-noticia{
+  margin-right: 7px;
+  cursor: pointer;
+  width: 90px;
+  height: 60px;
+  background-image: url(../images/Botãodireito.png);
+  background-repeat: no-repeat;
+}
+
+.pesq-mvida{
+  margin: 20px;
+}
+
+.pesq-mvida form{
+  display: inline-flex;
+  width: 650px;
+}
+
+.pesq-mvida input{
+  background-color: #EFEFEF;
+  text-align: center;
+  width: 800px;
+  font-size: 20px;
+  height: 50px;
+  color: #2864AE;
+  border: none;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  outline: 0;
+}
+
+.pesq-mvida input::placeholder{
+  color:#2864AE;
+}
+
+.pesq-mvida form button{
+  padding: 0 15px 0 0;
+  border: none;
+  border-radius:0;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  cursor: pointer;
+}
+
+.menu{
+  margin: 25px 5px;
+  display: flex;
+  cursor: pointer;
+}
+
+.main1{
+  width: 160px;
+  height: 190px;
+  margin: 10px;
+}
+
+.main1:nth-of-type(1){
+  margin-left: -15px;
+}
+
+.acessar{
+  width: 170px;
+  text-align: center;
+  color: white;
+  background-color: #2864AE;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius:8px 8px 0 0;
+  margin: 0 20px 0 10px;
+}
+
+.botao{
+  margin: -20px 20px 0 10px;
+  width: 170px;
+  height: 170px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 8px 8px;
+  border-left: 2px solid #2864AE;
+}
+
+div.botao .title1{
+  font-size: 27px;
+  display: block;
+  padding: 30px 0;
+}
+
+div.botao .title1 h1{
+  margin-top: -5px;
+}
+
+section.acess-ministerio{
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ministerios{
+  background-color: #F0F1F4;
+  height:218px;
+}
+
+.pesq-ministerios{
+  margin: 20px;
+}
+
+.pesq-ministerios form{
+  display: inline-flex;
+  width: 650px;
+}
+
+.pesq-ministerios input{
+  margin-top: 15px;
+  background-color: #E3E3E3;
+  text-align: center;
+  width: 880px;
+  font-size: 25px;
+  height: 60px;
+  color: #2864AE;
+  border: none;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+  outline: 0;
+}
+
+.pesq-ministerios input::placeholder{
+  color:#2864AE;
+}
+
+.pesq-ministerios form button{
+  margin-top: 15px;
+  padding: 0 15px 0 0;
+  border: none;
+  border-radius:0;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  cursor: pointer;
+  background-color: #E3E3E3;
+}
+
+.main-ministerios{
+  cursor: pointer;
+  width: 220px;
+  height: 88px;
+  background-color: white;
+  background-image: url(../images/Seta.png);
+  background-repeat: no-repeat;
+  background-position: left; 
+  background-position-x: 10px; 
+  margin-left: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.select-ministerios{
+  display: flex;
+}
+
+div.main-ministerios .title1{
+  display: block;
+  padding: 30px 0;
+}
+
+.main-ministerios .title1 h1{
+  text-align: right;
+  font-size: 15px;
+}
+
+.main-ministerios .title1 h1:nth-of-type(1){
+  margin-top: -30px;
+}
+
+div.avancar-ministerios{
+  margin-top: 10px;
+  cursor: pointer;
+  width: 90px;
+  height: 60px;
+  background-image: url(../images/Botãodireito.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+aside{
+  width: 455px;
+  height: 782px;
+  float: right;
+  margin-top: -470px;
+}
+
+.main-cidadao{
+  cursor: pointer;
+  width: 250px;
+  height: 90px;
+  background-color: #E6F2ED;
+  border-radius: 15px;
+  background-image: url(../images/Botãodireito.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-left: 20px;
+}
+
+div.main-cidadao .title1{
+  display: block;
+  font-size: 25px;
+}
+
+
+.main-cidadao .title1 h1:nth-of-type(2){
+  margin-left: 20px;
+}
+
+.main-cidadao-ex{
+  cursor: pointer;
+  width: 250px;
+  height: 90px;
+  border-radius: 15px;
+  background-image: url(../images/Botãodireito.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #2864AE;
+  margin-left: 20px;
+}
+
+.main-cidadao-ex .title1{
+  display: block;
+  font-size: 25px;
+}
+
+.main-cidadao-ex .title1 h1:nth-of-type(2){
+  margin-left: 20px;
+}
+
+.main-cidadao-ex .title1 h1{
+  color: white;
+}
+
+.feedback{
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: -150px;
+  width: 600px;
+  height:264px;
+  background-image: url(../images/Feedback.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+footer{
+  width: 100%;
+}
+
+div.footer-wrapper{
+  display: flex;
+}
+
+.footer-wrapper h4{
+  color: #4B6272;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main-footer{
+  width: 200px;
+  margin: 15px;
+  text-align: center;
+}
+
+.main-footer ul{
+  list-style-type:none;
+}
+
+.main-footer li{
+  margin-top: 15px;
+}
+
+.main-footer a{
+  text-decoration: none;
+  color: #4B6272;
+}
+.logo-footer{
+  margin-top: 15px;
+  color: #ACACBF;
+  display: flex;
+  margin-left: 44%;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
